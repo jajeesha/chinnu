@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JAJEESHA TATINENI</title>
+<%= stylesheet_link_tag "application", :media => "all","data-turbolinks-track" => true %>
+<%= javascript_include_tag "application","data-turbolinks-track" => true %>
+<%= csrf_meta_tags %>
+</head>
+ <body class='<%= controller.controller_name %>'>
+<div id="banner">
+<%= image_tag("DETAILS.png") %>
+<%= @page_title || "JAJEESHA TATINENI" %>
+</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#Her Details">Qualifications</a></li>
+<section id="Qualifications" class="Qualifications-section text-center">
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Qualifications</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+<section id="intro" class="intro">
+	
+		<div class="slogan">
+			<h2>WELCOME TO <span class="text_color"> TATINENI JAJEESHA</span> </h2>
+			<h4>RELATIONS NEVER  BROKES IF THEY R REAL</h4>
+		</div>
+		<div class="page-scroll">
+			<a href="#service" class="btn btn-circle">
+				<i class="fa fa-angle-double-down animated"></i>
+			</a>
+		</div>
+    </section>
+<div class="row">
+            <div class="col-sm-3 col-md-3">
+				<div class="wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="home-box">
+					<div class="home-icon">
+						<img src="/home/home/blog/app/assets/images/all/1491604_1433107510254173_410353266_n.jpg" alt="" />
+					</div>
+					<div class="home-desc">
+						<h5>durga rani</h5>
+						<p>did tenth class.</p>
+					</div>
+                </div>
+				</div>
+            </div>
+<div class="row">
+            <div class="col-sm-3 col-md-3">
+				<div class="wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="home-box">
+					<div class="home-icon">
+						<img src="/home/home/blog/app/assets/images/all/hires-image-cache4516734423370612559_256.cache" alt="" />
+					</div>
+					<div class="home-desc">
+						<h5>sivannarayana</5>
+						<p>did IIT.</p>
+					</div>
+                </div>
+				</div>
+            </div>
+ <section id="about" class="home-section text-center">
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <li><a href="# Her Knowledge">Technical skills</a></li>
+		<li><a href="#Her Activities">Activities</a></li>
+		<li><a href="#About Her">Personal Details</a></li>
+        <li class="dropdown">
+          <a href="#Visit Her" class="dropdown-toggle" data-toggle="dropdown">Visit her here <b class="caret"></b></a>
+     
+          </ul>
+        </li>
+      </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<div id="main">
+<%= yield %>
+</div>
+</div>
+</body>
+</html>
